@@ -10,7 +10,7 @@ The application presented was created purely for academic purposes. In fact, arb
 ## Logic 
 FlashSwap Dapp enables users to borrow tokens from the AAVE pool for arbitrage operations between Sushiswap and Uniswap. This is accomplished in a single, atomic transaction. Users can choose from various arbitrage opportunities, with the system calculating potential profitability based on price differences between exchanges. Users specify the borrowed amount, execute a flash loan transaction, and the app automatically returns the tokens to the Aave pool for withdrawal. Additionally, the demo allows users to interact with connected Decentralized Exchanges, creating new pools, exchanging tokens, and adding liquidity to pairs.
 
-![Alt Text](image-url)
+![Alt Text](/Assets/arbitrage.png)
 
 
 ## Use Cases
@@ -28,7 +28,7 @@ the value and token pairs selected.
 • **Withdraw**: The system must allow the user to withdraw his funds after the
 operations executed
 
-![Alt Text](image-url)
+![Alt Text](ContextFlashLoan.png)
 
 
 ### Decentralized Application 
@@ -44,7 +44,7 @@ a pool .
 • **Swap tokens** : The system allow the user to swap a tokanA from a tokenB
 taking tokens from the corresponding pool.
 
-![Alt Text](image-url)
+![Alt Text](ContextDex.png)
 
 
 ## Technologies
@@ -61,6 +61,8 @@ taking tokens from the corresponding pool.
 
 ### FlashSwap Application
 The FlashSwap page is designed for user convenience. The main section includes a header for logging in via Metamask and navigating the app. On the left, users can view calculated arbitrage options. The app fetches data from decentralized exchange smart contracts, identifying profitable opportunities. Users select the best option, saving settings for future trades. On the right, React components (cards) handle actions such as token approval and flash loans. The workflow involves choosing a trade on the left, approving token delegation on the right, and executing the trade by specifying the borrowed amount. The wallet section displays the user's balance.
+![Alt Text](/Assets/LandingPage.png)
+
 
 ### Decentralized Exchange Application
 

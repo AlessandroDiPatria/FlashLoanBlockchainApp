@@ -1,0 +1,166 @@
+.cardList {
+
+    width: 90%;
+    height: 80;
+    display: flex;
+    background-color:#3B3C4E;
+    border: 0.05em;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 3px;
+
+  
+  }
+
+
+  .vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 60px;
+    position: absolute;
+    margin-left: 305px;
+  }
+  .vr{
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 60px;
+    position: absolute;
+    margin-left: 625px;
+  }
+.divided-contents{
+  display: flex;
+
+}
+
+  
+
+.card-component-1{
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-right: 40%;
+    width: 800px;
+    height: 70px;
+    resize: both;
+    border-radius: 15px;
+
+
+
+
+    
+
+  }
+  .card-swap{
+   
+   /*#4F5069*/
+    background-color:   #3B3C4E;
+    display:inline-block ;
+    border-radius: 15px;
+    padding:3%;
+    margin-left: 60%;
+    margin-top:-6%;
+    width:300px;
+    height: 400px;
+   
+   
+    
+    
+  }
+  .square-inputs{
+    margin-right: 10%;
+    border: 2ch;
+    border-color: black;
+    border-radius: 10px;
+    padding: 1%;
+    display: inline
+
+   
+  }
+  
+  
+  .token-img{
+    height: 30px;
+    width: 30px;
+    margin:auto;
+}
+.h3-list{
+    margin: auto;
+    color: white;
+}
+
+.p{
+  color: white;
+}
+.button-list{
+    background-color:#4F5069;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    color : white;
+    border: 0.1px solid rgb(255, 255, 255);
+
+    
+}
+.title{
+  color: white ;
+}
+
+.p-list{
+    color : #8ab22e;
+    margin:auto;
+    font-size: larger;
+}
+
+.h3-list-name{
+    margin: auto;
+    font-size: 15px;
+}
+select {
+  margin-right:  2%;
+}
+
+.buttons-squared{
+  border: 1ch;
+  border-radius: 10px;
+  border: 0.1px solid rgb(172, 158, 158);
+  padding: 1%;
+  width: 40%;
+  margin: auto;
+}
+.selects-button{
+  background-color: #4F5069;
+  border-radius: 6px;
+  margin: 2%;
+  border: 1ch;
+  color: white;
+ 
+}
+
+select{
+  background-color: #4F5069;
+  color:white;
+  border: 0ch;
+
+
+ 
+}
+
+input{
+  margin-left: 3%;
+  background-color: #4F5069;
+  color: white;
+  border: 0ch;
+}
+.submit-button{
+  margin-top: 5%;
+  background-color: #4F5069;
+  color: white;
+  border: 1ch;
+  border-radius: 25px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 10px 5px ;
+  width: 300px;
+  
+ 
+ 
+
+}

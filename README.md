@@ -4,8 +4,14 @@
 The application presented, FlashLoanSwap proposes an innovative system for cryptocurrency arbitrage using a decentralized application called AAVE and a transaction type called FlashLoan. The application will allow the end user to borrow tokens from AAVE and employ them in arbitrage transactions between two Decentralized Exchanges to make a profit. All this is done in a single transaction making the operation truly secure. If something goes wrong the entire transaction is not written to the blockchain, as if it never happened.
 The application presented was created purely for academic purposes. In fact, arbitrage takes place between two exchanges created by me and slightly simplified compared to traditional Decentralized exchanges. The end user will then be able to interact with them through the application.
 
+![Alt Text](/Assets/LandingPage.png)
+
+
 ## Logic 
 FlashSwap Dapp enables users to borrow tokens from the AAVE pool for arbitrage operations between Sushiswap and Uniswap. This is accomplished in a single, atomic transaction. Users can choose from various arbitrage opportunities, with the system calculating potential profitability based on price differences between exchanges. Users specify the borrowed amount, execute a flash loan transaction, and the app automatically returns the tokens to the Aave pool for withdrawal. Additionally, the demo allows users to interact with connected Decentralized Exchanges, creating new pools, exchanging tokens, and adding liquidity to pairs.
+
+![Alt Text](image-url)
+
 
 ## Use Cases
 
@@ -22,6 +28,9 @@ the value and token pairs selected.
 • **Withdraw**: The system must allow the user to withdraw his funds after the
 operations executed
 
+![Alt Text](image-url)
+
+
 ### Decentralized Application 
 
 
@@ -34,6 +43,8 @@ token that the smart contract have to use for the user.
 a pool .
 • **Swap tokens** : The system allow the user to swap a tokanA from a tokenB
 taking tokens from the corresponding pool.
+
+![Alt Text](image-url)
 
 
 ## Technologies

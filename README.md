@@ -28,7 +28,7 @@ the value and token pairs selected.
 • **Withdraw**: The system must allow the user to withdraw his funds after the
 operations executed
 
-![Alt Text](ContextFlashLoan.png)
+![Alt Text](/Assets/ContextFlashLoan.png)
 
 
 ### Decentralized Application 
@@ -44,7 +44,7 @@ a pool .
 • **Swap tokens** : The system allow the user to swap a tokanA from a tokenB
 taking tokens from the corresponding pool.
 
-![Alt Text](ContextDex.png)
+![Alt Text](/Assets/ContextDex.png)
 
 
 ## Technologies
